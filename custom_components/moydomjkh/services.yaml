@@ -1,0 +1,31 @@
+submit_utility_usage:
+  description: submit utility usage
+  fields:
+    meter:
+      name: Meter ID
+      description: Meter ID
+      example: '123-123-23'
+      required: true
+    value:
+      name: Measurements (full)
+      description: measurements (total) value will replace current value
+      example: 123
+    delta_value:
+      name: Measurements (delta)
+      description: measurements (delta) value will be added to current value
+      example: 123
+
+
+generate_payment_url:
+  description: generate payment url
+  fields:
+    account:
+      name: Account ID
+      description: Account ID
+      example: '123-123'
+      required: true
+    amount:
+      name: Amount
+      description: Amount to pay, if empty value will be calculated based on current debt
+      example: 123
+

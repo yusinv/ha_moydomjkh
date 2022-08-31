@@ -1,0 +1,11 @@
+{
+  "domain": "moydomjkh",
+  "name": "Moy Dom JKH HA integration",
+  "documentation": "https://github.com/yusinv/ha_moydomjkh.git",
+  "dependencies": [],
+  "codeowners": ["@yusinv"],
+  "requirements": ["moydomjkh>=0.0.3"],
+  "config_flow": true,
+  "iot_class": "cloud_polling",
+  "version": "0.0.3"
+}
